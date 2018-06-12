@@ -1,5 +1,5 @@
 {
-  "name": "@mumupetguide/generator-state",
+  "name": "@tanawat/generator-redux-state",
   "version": "18.04.1",
   "keywords": [
     "yeoman-generator"
