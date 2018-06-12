@@ -1,0 +1,17 @@
+{
+  "name": "@mumupetguide/generator-state",
+  "version": "18.04.1",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "main": "index.js",
+  "files": [
+    "generators"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "yeoman-generator": "^2.0.3"
+  }
+}

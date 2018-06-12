@@ -1,0 +1,17 @@
+// @flow
+import type {Action} from '../../../state/common.type'
+
+export type <%= action %>Payload = {
+  // TODO: Add payload content
+}
+
+const type = '<%= fullType %>'
+
+export const <%= action %> = (): Action<<%= action %>Payload> => ({
+  type,
+  payload: {
+    // TODO: Add payload content
+  }
+})
+
+<%= action %>.type = type

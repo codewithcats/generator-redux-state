@@ -1,0 +1,12 @@
+// @flow
+
+import type {<%= stateType %>} from '../type'
+import type {<%= actionName %>Payload} from '../actions/<%= actionName %>'
+import type {Action} from '../../common.type'
+
+export function <%= reducerName %>Reducer(state: <%= stateType %>, action: Action<<%= actionName %>Payload>): <%= stateType %> {
+
+  return {
+    ...state,
+  }
+}

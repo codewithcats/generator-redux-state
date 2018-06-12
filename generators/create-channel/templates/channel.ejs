@@ -1,0 +1,12 @@
+// @flow
+
+import {eventChannel} from 'redux-saga'
+
+export function <%= channel %>() {
+  return eventChannel(send => {
+    // TODO: add your channel logic here
+    return () => {
+      // TODO: add channel unregistration logic here
+    }
+  })
+}
