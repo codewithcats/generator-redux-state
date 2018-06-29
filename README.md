@@ -1,15 +1,15 @@
-# genertor-state (AirFlow)
+# genertor-state
 
 ## Usage
 
 ```
-# genertor root directory
+# generator root directory
 yarn link
 
 # working directory
 yarn add --dev yo
-yarn link @mumupetguide/genertor-state
+yarn link @tanawat/genertor-redux-state
 
 # init state & router
-npx yo @mumupetguide/state
+npx yo @tanawat/redux-state
 ```
